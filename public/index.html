@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Plan it Poker</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+    <h2>Plan it Poker</h2>
+    <br />
+    <div id="joiningForm">
+        <input type="text" placeholder="Enter Room Number" value="" id="room">
+        <input type="text" placeholder="Enter Name" value="" id="name">
+        <div>
+            <button id="create" onclick="createRoom()">Create New Room</button>
+            <button id="join" onclick="joinRoom()">Join Room</button>
+        </div>
+
+    </div>
+    <div class="hide" id="users">
+        <h2>Story Point</h2>
+    </div>
+    <div id='game' class="hide"></div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

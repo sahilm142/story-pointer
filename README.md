@@ -1,0 +1,1 @@
+# Scrum Grooming: Story Pointer
